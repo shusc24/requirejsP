@@ -1,7 +1,7 @@
-##requrieP
+# requrieP
 
-##该插件是讲requirejs中的require转换成类似promise语法
-  使用在webpack打包下进行异步加载  
+## 该插件是讲requirejs中的require转换成类似promise语法
+   使用在webpack打包下进行异步加载  
 
 ## 使用
 ````
