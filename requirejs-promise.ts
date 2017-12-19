@@ -1,9 +1,6 @@
 declare let requirejs:any,Promise:any,define:any,exports:any,module:any;
 (function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        // AMD
-        define("requireP",[], factory);
-    } else if (typeof exports === 'object') {
+    if (typeof exports === 'object') {
         // Node, CommonJS之类的
         module.exports = factory();
     } else {
